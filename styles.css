@@ -1,0 +1,110 @@
+.second-section {
+  background-color: white;
+}
+
+.first-section {
+  padding-bottom: 100px;
+}
+
+body {
+  background-color: #1f2937;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.header.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header.links {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header.main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.header.text {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 390px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-top: 80px;
+}
+.header.sub-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.header.button {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-top: 10px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  padding-left: 28px;
+  border-radius: 8px;
+  width: 110px;
+  height: 35px;
+}
+
+.header.pic {
+  display: flex;
+  margin-right: 230px;
+  height: auto;
+  width: 420px;
+}
+
+.second-section img {
+  border-radius: 20px;
+
+}
+
+.ss-title {
+  margin: auto;
+  display: flex;
+  padding: 20px 0 20px 0;
+
+  justify-content: center;
+}
+
+.ss-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.list-item {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 200px;
+  justify-content: center;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
